@@ -1,0 +1,295 @@
+:root {
+	--js-color: rgb(209, 212, 0);
+	--js-content: 'javascript';
+
+	--jsx-color: #00b8e6;
+	--jsx-content: 'React';
+
+	--ts-color: rgb(0, 122, 204);
+	--ts-content: 'typescript';
+
+	--json-color: rgb(224, 172, 0);
+	--json-content: 'json';
+
+	--cs-color: rgb(138, 45, 141);
+	--cs-content: 'C#';
+
+	--cpp-color: rgb(17, 111, 182);
+	--cpp-content: 'C++';
+
+	--c-color: rgb(17, 111, 182);
+	--c-content: 'C';
+
+	--clike-color: rgb(43, 115, 170);
+	--clike-content: 'C-like';
+
+	--java-color: #f89820;
+	--java-content: 'java';
+
+	--go-color: #29beb0;
+	--go-content: 'Go';
+
+	--py-color: rgb(70, 147, 209);
+	--py-content: 'python';
+	
+	--lua-color: #0000a3;
+	--lua-content: 'lua';
+
+	--ruby-color: #D51F06;
+	--ruby-content: 'ruby';
+
+	--rust-color: #B7410E;
+	--rust-content: 'rust';
+
+	--css-color: rgb(41, 101, 241);
+	--css-content: 'CSS';
+
+	--scss-color: rgb(204, 102, 153);
+	--scss-content: 'SCSS';
+
+	--less-color: rgb(22, 76, 146);
+	--less-content: 'LESS';
+
+	--htmlmixed-color: #e34c26;
+	--htmlmixed-content: 'HTML';
+
+	--markdown-color: rgb(226, 226, 226);
+	--markdown-content: 'markdown';
+
+	--sql-color: #0079d6;
+	--sql-content: 'SQL';
+
+}
+
+p>code {
+	color: rgb(60, 145, 255) !important;
+}
+
+pre {
+	border-left: rgb(0, 110, 255) 4px solid;
+	padding: 0px !important;
+}
+
+pre>code {
+	display: block;
+	padding: 18px 20px 18px 20px !important;
+	color: rgb(233, 233, 233) !important;
+}
+
+.markdown-rendered code {
+	color: #f8f8f2;
+}
+
+pre>code[class*='language'] {
+	padding: 18px 20px 2px 20px !important;
+}
+
+pre[class*='language']::after {
+	display: block;
+	text-align: right;
+	margin-right: 30px;
+
+	font-weight: 300;
+	font-size: 11px;
+	color: rgb(153, 153, 153);
+	content: ' ';
+}
+
+
+
+pre.language-js {
+	border-color: var(--js-color);
+}
+
+pre.language-js::after {
+	content: var(--js-content);
+}
+
+
+
+pre.language-jsx {
+	border-color: var(--jsx-color);
+}
+
+pre.language-jsx::after {
+	content: var(--jsx-content);
+}
+
+
+pre.language-ts {
+	border-color: var(--ts-color);
+}
+
+pre.language-ts::after {
+	content: var(--ts-content);
+}
+
+
+
+pre.language-json {
+	border-color: var(--json-color);
+}
+
+pre.language-json::after {
+	content: var(--json-content);
+}
+
+
+
+pre.language-py {
+	border-color: var(--py-color);
+}
+
+pre.language-py::after {
+	content: var(--py-content);
+}
+
+
+
+pre.language-lua {
+	border-color: var(--lua-color);
+}
+
+pre.language-lua::after {
+	content: var(--lua-content);
+}
+
+
+
+pre.language-ruby {
+	border-color: var(--ruby-color);
+}
+
+pre.language-ruby::after {
+	content: var(--ruby-content);
+}
+
+
+
+pre.language-rust {
+	border-color: var(--rust-color);
+}
+
+pre.language-rust::after {
+	content: var(--rust-content);
+}
+
+
+
+pre.language-cs {
+	border-color: var(--cs-color);
+}
+
+pre.language-cs::after {
+	content: var(--cs-content);
+}
+
+
+
+pre.language-cpp {
+	border-color: var(--cpp-color);
+}
+
+pre.language-cpp::after {
+	content: var(--cpp-content);
+}
+
+
+
+pre.language-c {
+	border-color: var(--c-color);
+}
+
+pre.language-c::after {
+	content: var(--c-content);
+}
+
+
+
+pre.language-clike {
+	border-color: var(--clike-color);
+}
+
+pre.language-clike::after {
+	content: var(--clike-content);
+}
+
+
+
+pre.language-java {
+	border-color: var(--java-color);
+}
+
+pre.language-java::after {
+	content: var(--java-content);
+}
+
+
+
+pre.language-go {
+	border-color: var(--go-color);
+}
+
+pre.language-go::after {
+	content: var(--go-content);
+}
+
+
+
+pre.language-css {
+	border-color: var(--css-color);
+}
+
+pre.language-css::after {
+	content: var(--css-content);
+}
+
+
+
+pre.language-scss {
+	border-color: var(--scss-color);
+}
+
+pre.language-scss::after {
+	content: var(--scss-content);
+}
+
+
+
+pre.language-less {
+	border-color: var(--less-color);
+}
+
+pre.language-less::after {
+	content: var(--less-content);
+}
+
+
+
+pre.language-htmlmixed {
+	border-color: var(--htmlmixed-color);
+}
+
+pre.language-htmlmixed::after {
+	content: var(--htmlmixed-content);
+}
+
+
+
+pre.language-markdown {
+	border-color: var(--markdown-color);
+}
+
+pre.language-markdown::after {
+	content: var(--markdown-content);
+}
+
+
+
+pre.language-sql {
+	border-color: var(--sql-color);
+}
+
+pre.language-sql::after {
+	content: var(--sql-content);
+}
