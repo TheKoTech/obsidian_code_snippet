@@ -2,7 +2,8 @@
 
 This snippet makes your Obsidian.md code blocks look a little fancier
 
-![image](https://user-images.githubusercontent.com/92980051/189524728-183195dd-d146-44e1-a850-a0cada8d9cf0.png)
+![image](https://user-images.githubusercontent.com/92980051/189524747-181506a4-e3f6-4e1e-8188-ccc2f37c4a76.png)
+
 
 ### How to install
 
