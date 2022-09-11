@@ -22,20 +22,15 @@ Console.log(text);
 }
 ```
 
-```cs
-int function foo(bar) {
-	return 3;
-}
-```
-
 ```cpp
-int function foo(bar) {
-	return 3;
+int main() {
+    printf("Hello World");
+    return 0;
 }
 ```
 
 ```c
-int main()
+int main() 
 {
     printf("Hello World");
     return 0;
@@ -47,6 +42,13 @@ int main()
 {
     printf("Hello World");
     return 0;
+}
+```
+
+```cs
+static void Main(string[] args) 
+{
+	Console.WriteLine("Hello World!");
 }
 ```
 
@@ -92,6 +94,14 @@ fn main() {
 </div>
 ```
 
+```xml
+<text><para>hello world</para></text>
+```
+
+```markdown
+# Hello, world!
+```
+
 ```css
 .hello__world {
 	content: 'Hello, world!';
@@ -111,14 +121,22 @@ text: 'Hello, world!';
 }
 ```
 
-```markdown
-# Hello, world!
-```
-
 ```sql
 SELECT * 
 FROM myTable
 WHERE phrase = "Hello, World!";
+```
+
+```sh
+$ echo '#!/bin/sh' > my-script.sh
+$ echo 'echo Hello World' >> my-script.sh
+$ chmod 755 my-script.sh
+$ ./my-script.sh
+Hello World
+```
+
+```console
+echo Hello World
 ```
 
 ```
