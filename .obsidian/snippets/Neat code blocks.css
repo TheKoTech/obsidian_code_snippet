@@ -53,12 +53,23 @@
 	--htmlmixed-color: #e34c26;
 	--htmlmixed-content: 'HTML';
 
+	--xml-color: #005faf;
+	--xml-content: 'XML';
+
 	--markdown-color: rgb(226, 226, 226);
 	--markdown-content: 'markdown';
 
 	--sql-color: #0079d6;
 	--sql-content: 'SQL';
+	
+	--sh-color: #00d890;
+	--sh-content: 'Shell';
 
+	--console-color: #00d10a;
+	--console-content: 'console';
+
+	--yaml-color: #0068df;
+	--yaml-content: 'YAML';
 }
 
 pre {
@@ -80,7 +91,7 @@ pre>code[class*='language-'] {
 	padding: 18px 20px 2px 20px !important;
 }
 
-pre>code[class*='language']::after {
+pre>code[class*='language-']::after {
 	display: block;
 	text-align: right;
 	margin-right: 30px;
@@ -272,6 +283,16 @@ pre>code.language-htmlmixed::after {
 
 
 
+pre>code.language-xml {
+	border-color: var(--xml-color);
+}
+
+pre>code.language-xml::after {
+	content: var(--xml-content);
+} 
+
+
+
 pre>code.language-markdown {
 	border-color: var(--markdown-color);
 }
@@ -289,3 +310,33 @@ pre>code.language-sql {
 pre>code.language-sql::after {
 	content: var(--sql-content);
 }
+
+
+
+pre>code.language-sh {
+	border-color: var(--sh-color);
+}
+
+pre>code.language-sh::after {
+	content: var(--sh-content);
+}
+
+
+
+pre>code.language-console {
+	border-color: var(--console-color);
+}
+
+pre>code.language-console::after {
+	content: var(--console-content);
+}
+
+
+
+pre>code.language-yaml {
+	border-color: var(--yaml-color);
+}
+
+pre>code.language-yaml::after {
+	content: var(--yaml-content);
+} 
