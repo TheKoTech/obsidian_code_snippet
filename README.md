@@ -20,18 +20,18 @@ This snippet makes your Obsidian.md code blocks look a little fancier
 
 ```css
 	/* I recommend copying the lang's logo color to here */
-	--NAME-color: rgb(0, 0, 0);  /* hex (#ffffff) also works */
+	--NAME-color: rgb(0, 0, 0);  /* or #ffffff. Left border color */
 	--NAME-content: 'NAME';      /* displayed name */
 ```
 
 5. Copy and paste this to the end of the file and change the `NAME`:
    
 ```css
-pre.language-NAME {
+pre>code.language-NAME {
 	border-color: var(--NAME-color); /* change the name */
 }
 
-pre.language-NAME::after {
+pre>code.language-NAME::after {
 	content: var(--NAME-content);    /* change the name */
 }
 ```
