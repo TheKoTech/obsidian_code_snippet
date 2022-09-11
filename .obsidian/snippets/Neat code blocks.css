@@ -61,26 +61,22 @@
 
 }
 
-p>code {
-	color: rgb(60, 145, 255) !important;
-}
-
 pre {
-	border-left: rgb(0, 110, 255) 4px solid;
 	padding: 0px !important;
 }
 
-pre>code {
+.markdown-rendered pre code {
+	border-left: rgb(0, 110, 255) 4px solid;
 	display: block;
-	padding: 18px 20px 18px 20px !important;
-	color: rgb(233, 233, 233) !important;
+	padding: 18px 20px 18px 20px;
+	color: rgb(233, 233, 233);
 }
 
 .markdown-rendered code {
 	color: #f8f8f2;
 }
 
-pre>code[class*='language'] {
+pre>code[class*='language-'] {
 	padding: 18px 20px 2px 20px !important;
 }
 
@@ -97,199 +93,199 @@ pre>code[class*='language']::after {
 
 
 
-pre.language-js {
+pre>code.language-js {
 	border-color: var(--js-color);
 }
 
-pre.language-js::after {
+pre>code.language-js::after {
 	content: var(--js-content);
 }
 
 
 
-pre.language-jsx {
+pre>code.language-jsx {
 	border-color: var(--jsx-color);
 }
 
-pre.language-jsx::after {
+pre>code.language-jsx::after {
 	content: var(--jsx-content);
 }
 
 
-pre.language-ts {
+pre>code.language-ts {
 	border-color: var(--ts-color);
 }
 
-pre.language-ts::after {
+pre>code.language-ts::after {
 	content: var(--ts-content);
 }
 
 
 
-pre.language-json {
+pre>code.language-json {
 	border-color: var(--json-color);
 }
 
-pre.language-json::after {
+pre>code.language-json::after {
 	content: var(--json-content);
 }
 
 
 
-pre.language-py {
+pre>code.language-py {
 	border-color: var(--py-color);
 }
 
-pre.language-py::after {
+pre>code.language-py::after {
 	content: var(--py-content);
 }
 
 
 
-pre.language-lua {
+pre>code.language-lua {
 	border-color: var(--lua-color);
 }
 
-pre.language-lua::after {
+pre>code.language-lua::after {
 	content: var(--lua-content);
 }
 
 
 
-pre.language-ruby {
+pre>code.language-ruby {
 	border-color: var(--ruby-color);
 }
 
-pre.language-ruby::after {
+pre>code.language-ruby::after {
 	content: var(--ruby-content);
 }
 
 
 
-pre.language-rust {
+pre>code.language-rust {
 	border-color: var(--rust-color);
 }
 
-pre.language-rust::after {
+pre>code.language-rust::after {
 	content: var(--rust-content);
 }
 
 
 
-pre.language-cs {
+pre>code.language-cs {
 	border-color: var(--cs-color);
 }
 
-pre.language-cs::after {
+pre>code.language-cs::after {
 	content: var(--cs-content);
 }
 
 
 
-pre.language-cpp {
+pre>code.language-cpp {
 	border-color: var(--cpp-color);
 }
 
-pre.language-cpp::after {
+pre>code.language-cpp::after {
 	content: var(--cpp-content);
 }
 
 
 
-pre.language-c {
+pre>code.language-c {
 	border-color: var(--c-color);
 }
 
-pre.language-c::after {
+pre>code.language-c::after {
 	content: var(--c-content);
 }
 
 
 
-pre.language-clike {
+pre>code.language-clike {
 	border-color: var(--clike-color);
 }
 
-pre.language-clike::after {
+pre>code.language-clike::after {
 	content: var(--clike-content);
 }
 
 
 
-pre.language-java {
+pre>code.language-java {
 	border-color: var(--java-color);
 }
 
-pre.language-java::after {
+pre>code.language-java::after {
 	content: var(--java-content);
 }
 
 
 
-pre.language-go {
+pre>code.language-go {
 	border-color: var(--go-color);
 }
 
-pre.language-go::after {
+pre>code.language-go::after {
 	content: var(--go-content);
 }
 
 
 
-pre.language-css {
+pre>code.language-css {
 	border-color: var(--css-color);
 }
 
-pre.language-css::after {
+pre>code.language-css::after {
 	content: var(--css-content);
 }
 
 
 
-pre.language-scss {
+pre>code.language-scss {
 	border-color: var(--scss-color);
 }
 
-pre.language-scss::after {
+pre>code.language-scss::after {
 	content: var(--scss-content);
 }
 
 
 
-pre.language-less {
+pre>code.language-less {
 	border-color: var(--less-color);
 }
 
-pre.language-less::after {
+pre>code.language-less::after {
 	content: var(--less-content);
 }
 
 
 
-pre.language-htmlmixed {
+pre>code.language-htmlmixed {
 	border-color: var(--htmlmixed-color);
 }
 
-pre.language-htmlmixed::after {
+pre>code.language-htmlmixed::after {
 	content: var(--htmlmixed-content);
 }
 
 
 
-pre.language-markdown {
+pre>code.language-markdown {
 	border-color: var(--markdown-color);
 }
 
-pre.language-markdown::after {
+pre>code.language-markdown::after {
 	content: var(--markdown-content);
 }
 
 
 
-pre.language-sql {
+pre>code.language-sql {
 	border-color: var(--sql-color);
 }
 
-pre.language-sql::after {
+pre>code.language-sql::after {
 	content: var(--sql-content);
 }
