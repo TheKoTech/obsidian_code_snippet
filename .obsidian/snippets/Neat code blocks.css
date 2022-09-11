@@ -84,7 +84,7 @@ pre>code[class*='language'] {
 	padding: 18px 20px 2px 20px !important;
 }
 
-pre[class*='language']::after {
+pre>code[class*='language']::after {
 	display: block;
 	text-align: right;
 	margin-right: 30px;
